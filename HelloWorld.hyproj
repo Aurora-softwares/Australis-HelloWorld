@@ -1,13 +1,13 @@
 format = 2
 name = "HelloWorld"
-version = "0.0.1"
-type = "australis"
+version = "0.1.0"
+type = "exec"
+output = "build/hello-world.exec"
 sources = ["src/Program.hy"]
-output = "hello_world.exec"
 project_references = []
 
 [package]
-id = "HelloWorld"
-description = "A simple Hello, World! application"
-authors = []
-license = ""
+id = "os.australis.hello-world"
+description = "Minimal Australis executable"
+authors = ["Aurora Softwares"]
+license = "MIT"
