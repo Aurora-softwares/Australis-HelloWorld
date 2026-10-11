@@ -2,7 +2,7 @@ format = 2
 name = "HelloWorld"
 version = "0.1.0"
 type = "exec"
-output = "build/hello-world.exec"
+output = "hello-world.exec"
 sources = ["src/Program.hy"]
 project_references = []
 
