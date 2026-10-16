@@ -5,9 +5,9 @@
 The source prints `Hello, World!` and exits successfully. This is a minimal AUEX application, not a shell or service.
 
 `HelloWorld.hyproj` builds `hello-world.exec`. The Australis OS aggregate includes
-this project and installs the executable at `/Bin/hello-world.exec` in the read-only
-HyFS 2 boot image. Run it by its bare name `/Bin/` through the current
-recovery shell's `PATH`, or use `run /Bin/hello-world.exec`.
+this project and installs the executable at `/System/Bin/hello-world.exec` in the read-only
+HyFS 2 boot image. Run it by its bare name `/System/Bin/` through the current
+recovery shell's `PATH`, or use `run /System/Bin/hello-world.exec`.
 
 ## Planned direction
 
